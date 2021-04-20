@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="sr">
+
+    <head>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        
+        <!-- CSS -->
+
+        <link rel="stylesheet" href="css/style.css">
+
+
+        <!-- Bootrap 4 (CSS, jQuery, JS) -->
+
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <script src="bootstrap/jquery/jquery-3.5.1.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        
+
+        <!-- Font awesome -->
+
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-KA6wR/X5RY4zFAHpv/CnoG2UW1uogYfdnP67Uv7eULvTveboZJg0qUpmJZb5VqzN" crossorigin="anonymous">
+
+        <title>Dodaj</title>
+
+    </head>
+
+    <body>
+       
+        <div class="container mt-5">
+            <h3 class="text-center mb-5">Dodaj proizvod</h3>
+
+            <form class="change_form" action="/saveAddedProduct" method="GET">
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="naziv">Naziv proizvoda</label>
+                        <input id="naziv" class="form-control" type="text" name="naziv" required>
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="cena">Cena proizvoda</label>
+                        <input id="cena" class="form-control" type="text" name="cena" required>
+                    </div>
+                </div>
+
+                <button style="display:block" class="btn btn-primary w-50 mt-3 mx-auto font-weight-bold" name="submit" value="submit">Dodaj proizvod</button>
+            </form>
+        </div>
+    
+    </body>
+
+</html>
