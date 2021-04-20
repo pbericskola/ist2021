@@ -1,0 +1,12 @@
+<!ELEMENT proizvodi (proizvod+)>
+<!ELEMENT proizvod (kategorija, cena, tekst, oznaka+, akcije?)>
+<!ELEMENT kategorija EMPTY>
+<!ATTLIST kategorija ime (laptopovi | monitori | stolovi | stolice) #REQUIRED>
+<!ELEMENT cena (#PCDATA)>
+<!ATTLIST cena valuta CDATA "rsd">
+<!ELEMENT tekst (#PCDATA)>
+<!ELEMENT oznaka ANY>
+<!ELEMENT akcija EMPTY>
+<!ELEMENT akcije (akcija+)>
+<!ATTLIST akcija cena CDATA #REQUIRED>
+<!ATTLIST akcija datum_isteka CDATA #REQUIRED>
