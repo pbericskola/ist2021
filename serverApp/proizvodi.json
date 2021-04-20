@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "naziv": "GORENJE Frižider sa jednim vratima R6295W",
+        "cena": 27400
+    },
+    {
+        "id": 2,
+        "naziv": "TESLA Frižider RS0903M",
+        "cena": 13900
+    },
+    {
+        "id": 3,
+        "naziv": "TESLA Frižider RS2000M",
+        "cena": 21900
+    },
+    {
+        "id": 4,
+        "naziv": "KONČAR Frižider H1A 54 265 SF1",
+        "cena": 23500
+    },
+    {
+        "id": 5,
+        "naziv": "KONČAR Frižider H1A 54 265 BF1",
+        "cena": 21900
+    }
+]
