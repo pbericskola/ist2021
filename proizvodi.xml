@@ -1,1 +1,42 @@
-
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE proizvodi SYSTEM "proizvodi.dtd">
+<proizvodi>
+  <proizvod>
+    <kategorija ime="laptopovi" />
+    <cena valuta="eur">12300</cena>
+    <tekst>Tekst oglasa.</tekst>
+    <oznaka>Oznaka 1</oznaka>
+    <oznaka>Oznaka 2</oznaka>
+    <akcije>
+      <akcija cena="9500" datum_isteka="1.4.2021." />
+      <akcija cena="10000" datum_isteka="1.5.2021." />
+    </akcije>
+  </proizvod>
+  <proizvod>
+    <kategorija ime="monitori" />
+    <cena>12000</cena>
+    <tekst>Tekst oglasa.</tekst>
+    <oznaka>Oznaka 1</oznaka>
+    <oznaka>Oznaka 2</oznaka>
+  </proizvod>
+  <proizvod>
+    <kategorija ime="stolovi" />
+    <cena valuta="eur">5000</cena>
+    <tekst>Tekst oglasa.</tekst>
+    <oznaka>Oznaka 1</oznaka>
+    <akcije>
+      <akcija cena="4000" datum_isteka="25.04.2021." />
+    </akcije>
+  </proizvod>
+  <proizvod>
+    <kategorija ime="stolice" />
+    <cena>3200</cena>
+    <tekst>Tekst oglasa.</tekst>
+    <oznaka>Oznaka 1</oznaka>
+    <oznaka>Oznaka 2</oznaka>
+    <oznaka>Oznaka 3</oznaka>
+    <akcije>
+      <akcija cena="2700" datum_isteka="29.04.2021." />
+    </akcije>
+  </proizvod>
+</proizvodi>
